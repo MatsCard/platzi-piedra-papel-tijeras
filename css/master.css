@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+.tijera,
+.piedra,
+.papel {
+  cursor: pointer;
+}
+
+.computer-img {
+  -webkit-animation-duration: 30s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: show-result;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-name: computer-img;
+}
+
+@keyframes computer-img {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.player-selection img, #results-img {
+  width: 250px;
+}
